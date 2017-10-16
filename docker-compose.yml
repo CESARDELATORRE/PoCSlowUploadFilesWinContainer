@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  pocslowuploadfiles:
+    image: pocslowuploadfiles
+    build:
+      context: .\PoCSlowUploadFiles
+      dockerfile: Dockerfile

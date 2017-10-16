@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  pocslowuploadfiles:
+    ports:
+      - "80:80"
+networks:
+  default:
+    external:
+      name: nat
